@@ -13,6 +13,7 @@
 		A307B2FB1D4B299100FB5541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A307B2F91D4B299100FB5541 /* Main.storyboard */; };
 		A307B2FD1D4B299100FB5541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A307B2FC1D4B299100FB5541 /* Assets.xcassets */; };
 		A307B3001D4B299100FB5541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A307B2FE1D4B299100FB5541 /* LaunchScreen.storyboard */; };
+		A307B3091D4B29EF00FB5541 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A307B3081D4B29EF00FB5541 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A307B2FC1D4B299100FB5541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A307B2FF1D4B299100FB5541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A307B3011D4B299100FB5541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A307B3071D4B29EF00FB5541 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A307B3081D4B29EF00FB5541 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A307B2FE1D4B299100FB5541 /* LaunchScreen.storyboard */,
 				A307B3011D4B299100FB5541 /* Info.plist */,
 				A307B2F01D4B299100FB5541 /* Supporting Files */,
+				A307B3071D4B29EF00FB5541 /* Person.h */,
+				A307B3081D4B29EF00FB5541 /* Person.m */,
 			);
 			path = XJTestApp;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				A307B2F81D4B299100FB5541 /* ViewController.m in Sources */,
 				A307B2F51D4B299100FB5541 /* AppDelegate.m in Sources */,
+				A307B3091D4B29EF00FB5541 /* Person.m in Sources */,
 				A307B2F21D4B299100FB5541 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
